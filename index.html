@@ -1,28 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sania Jain | Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  font-family: 'Poppins', sans-serif;
-  background: #FFF6F8;
-  color: #5A4A4A;
-  line-height: 1.6;
-}
-a { color: inherit; text-decoration: none; }
-.container { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+body{font-family:sans-serif;background:#FFF6F8;color:#5A4A4A;margin:0;line-height:1.6}
+nav{background:#fff;padding:15px;text-align:center;border-bottom:2px solid #FFE5EC}
+nav a{margin:0 10px;color:#5A4A4A;text-decoration:none;font-weight:bold;font-size:14px}
+.hero{text-align:center;padding:50px 20px}
+.hero h1{font-size:38px;margin:10px 0}
+.hero h1 span{color:#FF8FAB}
+.btn{background:#FFAFCC;color:#fff;padding:12px 22px;border-radius:999px;text-decoration:none;display:inline-block;font-weight:bold}
+.card{background:#fff;border:2px solid #FFE5EC;border-radius:20px;padding:25px;margin:15px auto;max-width:800px}
+.badge{background:#FFC8DD;padding:6px 14px;border-radius:999px;display:inline-block;margin:4px;font-size:13px}
+.contact{background:#FFC8DD;border-radius:20px;padding:30px;margin:15px auto;max-width:800px;text-align:center}
+footer{text-align:center;color:#B08A8A;padding:20px;font-size:13px}
+</style>
+</head>
+<body>
 
-/* NAV */
-nav { background: #FFFFFF; padding: 16px 0; position: sticky; top: 0; border-bottom: 2px solid #FFE5EC; }
-.nav-inner { max-width: 900px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
-.logo { font-weight: 700; font-size: 22px; color: #5A4A4A; }
-.logo span { color: #FF8FAB; }
-.nav-links { display: flex; gap: 20px; font-size: 14px; }
-.nav-links a:hover { color: #FF8FAB; }
-.btn { padding: 10px 20px; border-radius: 999
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#journey">Journey</a>
+<a href="#contact">Contact</a>
+</nav>
 
+<div class="hero">
+<p style="color:#FF8FAB;font-weight:bold;letter-spacing:2px;font-size:12px">HELLO, I'M</p>
+<h1>Sania Jain<br><span>Front-end Developer</span></h1>
+<p>I craft simple, clean and cute web experiences.</p><br>
+<a href="#about" class="btn">View My Work ↓</a>
+</div>
+
+<div class="card" id="about">
+<h2>👋 About Me</h2>
+<p>Hi, I'm <b>Sania Jain</b> — FY B.Voc Software Development student at <b>Jai Hind College, Mumbai</b>. I love building clean, modern websites.</p><br>
+<p>📍 Mumbai, India<br>🎓 B.Voc Software Development<br>📧 jain2sania@gmail.com</p>
+</div>
+
+<div class="card">
+<h2>🎯 What I'm Working Towards</h2>
+<p>• Learning web development, Python, and programming logic.<br>• Building small projects to gain confidence.<br>• Strong base for career in software development.</p>
+</div>
+
+<div class="card" id="skills">
+<h2>🛠️ Skills</h2>
+<p><b>Frontend:</b></p>
+<span class="badge">HTML5</span><span class="badge">CSS3</span><span class="badge">JavaScript</span><span class="badge">Bootstrap</span><br><br>
+<p><b>Languages:</b></p>
+<span class="badge">Python</span><span class="badge">C Programming</span><br><br>
+<p><b>Tools:</b></p>
+<span class="badge">GitHub</span><span class="badge">VS Code</span><span class="badge">Vercel</span><span class="badge">Canva</span>
+</div>
+
+<div class="card" id="journey">
+<h2>🚀 My Journey</h2>
+<p><b style="color:#FF8FAB">2025 - Present:</b> Started B.Voc at Jai Hind College<br><br>
+<b style="color:#FF8FAB">2025:</b> Learned HTML, CSS, JavaScript<br><br>
+<b style="color:#FF8FAB">2026:</b> Built Portfolio & FY Vacation Work</p>
+</div>
+
+<div class="contact" id="contact">
+<h2>Let's build something great ✨</h2>
+<p>I'm open to internships and collaborations.</p>
+<a href="mailto:jain2sania@gmail.com" class="btn">Email Me</a><br><br>
+<p>LinkedIn • GitHub</p>
+</div>
+
+<footer>© 2026 Sania Jain • Made with ❤️ • Jai Hind College</footer>
+
+</body>
 </html>
